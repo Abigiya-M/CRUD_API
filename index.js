@@ -21,7 +21,7 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
-mongoose.connect("mongodb+srv://abigiyayeshua:gIM2TP719oOk6Cvt@backenddb.zmqcs.mongodb.net/NodeAPI?retryWrites=true&w=majority&appName=BackendDB")
+mongoose.connect("")
 .then(() => {
   console.log('Connected!');
 })
