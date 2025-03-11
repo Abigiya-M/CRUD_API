@@ -1,6 +1,6 @@
 const express = require('express')
 const mongoose = require('mongoose')
-const Product = require('./models.product.js'); // Ensure correct path to models.product.js
+const Product = require('./model/models.product.js'); // Ensure correct path to models.product.js
 const productRoutes = require('./routes/product.routes.js'); // Ensure correct path to product.routes.js
 const app = express()
 const port = 3000
